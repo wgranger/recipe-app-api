@@ -4,5 +4,5 @@
 A simple API to test out getting Django up and running with a test project
 
 To build: `docker-compose build`  
-To launch dev server `docker-compose up`
+To launch dev server `docker-compose up`  
 To test: `docker-compose run app sh-c "python manage.py test && flake8"`
